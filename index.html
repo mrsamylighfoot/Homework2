@@ -11,15 +11,14 @@
 <body>
     <header>
         <h1>Amy Lightfoot</h1>
+            <nav class="NavLink">
+                <div><a href="#AboutMe">About Me</a></div>
+                <div><a href="#Work">Work</a></div>
+                <div><a href="#ContactMe">Contact Me</a></div>
+                <div><a href="/Assets/Amy Lightfoot Resume.pdf">Resume</a></div>
+            </nav>
+            </class>
     </header> 
-    
-    <nav id="NavLinks">
-            <div><a href="#AboutMe">About Me</a></div>
-            <div><a href="#Work">Work</a></div>
-            <div><a href="#ContactMe">Contact Me</a></div>
-            <div><a href="/Assets/Amy Lightfoot Resume.pdf">Resume</a></div>
-        </class>
-    </nav>
     
     <!-- Insert Chevron picture as background -->
     <div class="Chevron">
@@ -28,36 +27,41 @@
     </div>
 
     <main>
-        <article id="AboutMe">
-            <h3>About Me</h3>
-            <p>Enter really cool information that is going to entertain and delight potential employers and show off my wide span of experiences that will enhance their brand. Keep typing until there are enough characters to not look like a starter page, but not so many that it looks like I copied and pasted the latest novel online.</p>
-            <p>Continue with character and personality. Hold their attention. Drop tech terms casually like I'm cool.  Present information to impress without looking like I'm conceited. Be confident but not ridiculous. Pope is a rockstar. I want to be like Pope. </p>
-        </article>
+        <div class="FlexContainer">
+            <article id="AboutMe">
+                <h3>About Me</h3>
+                <p>Enter really cool information that is going to entertain and delight potential employers and show off my wide span of experiences that will enhance their brand. Keep typing until there are enough characters to not look like a starter page, but not so many that it looks like I copied and pasted the latest novel online.</p>
+                <p>Continue with character and personality. Hold their attention. Drop tech terms casually like I'm cool.  Present information to impress without looking like I'm conceited. Be confident but not ridiculous. Pope is a rockstar. I want to be like Pope. </p>
+            </article>
         
-        <article id="Work">
-            <h3>Work</h3>
-            <!-- Need to create boxes for each div -->
-            <div class="SurfReport">
-                <p>Surf Report</p>
-                <p>MERN Stack</p>
-            </div>
-            <div class="LEDWall">
-                <p>LED Wall</p>
-                <p>Node/IoT</p>               
-            </div>
-            <div class="Calculator">
-                <p>Calculator</p>
-                <p>React/JavaScript/CSS</p>
-            </div>
-            <div class="PastelPuzzles">
-                <p>Pastel Puzzles</p>
-                <p>MERN Stack</p>
-            </div>
-            <div class="RunBuddy">
-                <p>Run Buddy</p>
-                <p>HTML/CSS</p>
-            </div>
-        </article>
+            <article id="Work">
+                <h3>Work</h3>
+                <div class="SurfReport">
+                    <p>Surf Report</p>
+                    <p>MERN Stack</p>
+                </div>
+            
+                <div class="LEDWall">
+                    <p>LED Wall</p>
+                    <p>Node/IoT</p>               
+                </div>
+                
+                <div class="Calculator">
+                    <p>Calculator</p>
+                    <p>React/JavaScript/CSS</p>
+                </div>
+            
+                <div class="PastelPuzzles">
+                    <p>Pastel Puzzles</p>
+                    <p>MERN Stack</p>
+                </div>
+            
+                <div class="RunBuddy">
+                    <p>Run Buddy</p>
+                    <p>HTML/CSS</p>
+                </div>
+            </article>
+        </div>
 
         <article id="ContactMe">
             <h3>Contact Me</h3>

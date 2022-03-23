@@ -1,28 +1,61 @@
 header {
     background-color: slategray;
     color: cyan;
+    padding: 15px;
 }
 
-.NavLinks {
+header h1 {
     /* Need to put in box, change box background to teal and lettering to gray */
-    display: flex;
     background-color: cyan;
     color: slategray;
+    width: fit-content;
+}
+
+.NavLink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 5px;
+    margin: 0;
+    color: cyan;    
 }
 
 h3 {
     color: slategray;
+    font-size: xx-large;
 }
 
 .Chevron {
-    /* background-image: url(https://www.behance.net/gallery/11023585/Chevron-Patterns/modules/80028125); */
-    background-color: slategray;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ac0ef11023585.560efbdf88dc4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .AboutMe {
     color: slategray;
     font-family: 'Courier New', Courier, monospace;
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 10px;
+}
+
+.FlexContainer article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.AboutMe p {
+    display: flex;
+    flex-wrap: flex;
+
 }
 
 .Work {
