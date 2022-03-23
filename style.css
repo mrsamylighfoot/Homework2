@@ -1,0 +1,30 @@
+header {
+    background-color: slategray;
+    color: cyan;
+}
+
+.NavLinks {
+    /* Need to put in box, change box background to teal and lettering to gray */
+    display: flex;
+    background-color: cyan;
+    color: slategray;
+}
+
+h3 {
+    color: slategray;
+}
+
+.Chevron {
+    /* background-image: url(https://www.behance.net/gallery/11023585/Chevron-Patterns/modules/80028125); */
+    background-color: slategray;
+}
+
+.AboutMe {
+    color: slategray;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.Work {
+
+}
