@@ -2,6 +2,5 @@
 
 Creating website as basis for personal portfolio.
 
-Screenshot in main folder.
-
-Made attempt; submitting incomplete, to continue to apply CSS and resubmit at a later date. ALL
+Screenshot updated with reformatting and updated links with current project completions.
+![image](https://user-images.githubusercontent.com/101309406/162553145-731cc7e8-7812-4eeb-af6a-3b552efeb216.png)
