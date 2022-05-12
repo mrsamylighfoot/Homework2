@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![screenshot](./public/assets/images/Screenshot.png)
+![image](https://user-images.githubusercontent.com/101309406/168145481-f25946cd-e2af-48dd-b416-16df88f8e33b.png)
 
 ## Table of Contents
 
