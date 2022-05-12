@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [description](#description)
-- [aunch]](#launch)
+- [launch]](#launch)
 - [collaborators](#collaborators)
 - [license](#license)
 - [badges](#badges)
